@@ -12,7 +12,7 @@ import re
 # ****************************************************************************************************************************
 
 # FIRST ANALYSIS - USING TEXT PROVIDED
-file = '/Users/nicolemuscanell/UCF-03-PYTHON/PyParagraph/raw_data/paragraph_1.txt'
+file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyParagraph/raw_data/paragraph_1.txt'
 
 with open(file, 'r') as file:
   text = file.read()
@@ -47,7 +47,7 @@ print(f"Average Sentence Length: {average_sentence_length}")
 print("-----------------------------")
 
 # SECOND ANALYSIS - USING TEXT I PULLED FROM A NEWS ARTICLE
-file = '/Users/nicolemuscanell/UCF-03-PYTHON/PyParagraph/raw_data/paragraph_2.txt'
+file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyParagraph/raw_data/paragraph_2.txt'
 
 # ************************** FOR GRADER **************************************************************************************
 # file = '..', 'raw_data', 'paragraph_2.txt')

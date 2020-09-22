@@ -1,4 +1,4 @@
-# PYTHON BANK CHALLENGE - ANALYSIS OF FINANCIAL INFORMATION
+# PYTHON PAY CHALLENGE - ANALYSIS OF FINANCIAL INFORMATION
 
 import os
 import csv
@@ -13,7 +13,7 @@ import csv
 # Join one or more path components using the os.path.join command
 # Concatenates various path components with exactly one directory separator (‘/’)
 # If not part of absolute path, does not need the '/'
-csvpath = os.path.join ('/Users/nicolemuscanell/UCF-03-PYTHON/PyBank/Resources', 'budget_data.csv')
+csvpath = os.path.join ('/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBank/Resources', 'budget_data.csv')
 
 # ************************** FOR GRADER **************************************************************************************
 # output_path = os.path.join('..', 'Resources', 'budget_data.csv')
@@ -76,7 +76,7 @@ Results = (
 print(Results)
 
 # Store the file path associated with the file
-file = '/Users/nicolemuscanell/UCF-03-PYTHON/PyBank/Analysis/budget.txt'
+file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBank/Analysis/budget.txt'
 
 # Open the file in write mode and write results into text file
 with open(file, "w") as writefile:
