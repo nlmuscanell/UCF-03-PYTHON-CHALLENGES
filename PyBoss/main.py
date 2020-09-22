@@ -10,7 +10,7 @@ import csv
 # csvpath = os.path.join ('..', 'Resources', 'employee_data_csv')
 # ****************************************************************************************************************************
 
-csvpath = os.path.join('/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBoss/Resources', 'employee_data.csv')
+csvpath = os.path.join('/Users/nicolemuscanell/UCF-03-PYTHON/PyBoss/Resources', 'employee_data.csv')
 
 # Define new lists
 emp_id = []
@@ -112,7 +112,7 @@ with open(csvpath) as csvfile:
 employees_zipped = zip(emp_id, first_name, last_name, dob_new, ssn_new, state_new)
 
 # Specify the file path to write to
-output_path = os.path.join('/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBoss/Output', 'employee_data_new.csv')
+output_path = os.path.join('/Users/nicolemuscanell/UCF-03-PYTHON/PyBoss/Output', 'employee_data_new.csv')
 
 # ************************** FOR GRADER **************************************************************************************
 # output_path = os.path.join('..', 'Output', 'employee_data_new.csv')

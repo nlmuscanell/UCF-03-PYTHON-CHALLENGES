@@ -10,7 +10,7 @@ import csv
 # csvpath = os.path.join ('..', 'Resources', 'election_data.csv')
 # ****************************************************************************************************************************
 
-csvpath = os.path.join ('/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyPoll/Resources', 'election_data.csv')
+csvpath = os.path.join ('/Users/nicolemuscanell/UCF-03-PYTHON/PyPoll/Resources', 'election_data.csv')
 
 # Making new list where candidate names will be added 
 candidates = []
@@ -80,7 +80,7 @@ Results = (
 print(Results)
 
 # Store the file path associated with the file
-file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyPoll/Analysis/votes.txt'
+file = '/Users/nicolemuscanell/UCF-03-PYTHON/PyPoll/Analysis/votes.txt'
 
 # ************************** FOR GRADER **************************************************************************************
 # file = ('..', 'Analysis', 'votest.txt')
