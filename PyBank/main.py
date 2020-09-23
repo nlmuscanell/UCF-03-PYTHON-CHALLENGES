@@ -75,6 +75,10 @@ Results = (
 
 print(Results)
 
+# ************************** FOR GRADER **************************************************************************************
+# file = '..', 'Analysis', 'budget.txt')
+# ****************************************************************************************************************************
+
 # Store the file path associated with the file
 file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBank/Analysis/budget.txt'
 
