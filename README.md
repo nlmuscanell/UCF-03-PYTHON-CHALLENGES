@@ -5,3 +5,5 @@ This project uses Python scripting to address two goals: (1) analye the financia
 
 BONUS PROJECTS
 Use python scripting to re-format a database and conduct a text analysis.
+
+`
