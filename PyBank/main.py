@@ -10,9 +10,6 @@ import csv
 # csvpath = os.path.join ('..', 'Resources', 'budget_data.csv')
 # ****************************************************************************************************************************
 
-# Join one or more path components using the os.path.join command
-# Concatenates various path components with exactly one directory separator (‘/’)
-# If not part of absolute path, does not need the '/'
 csvpath = os.path.join ('/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyBank/Resources', 'budget_data.csv')
 
 # ************************** FOR GRADER **************************************************************************************
