@@ -1,6 +1,6 @@
 # PYTHON PARAGRAHP CHALLENGE - CREATE A SCRIPT AUTOMATING TEXT ANALYSIS
 
-# HW hint said ti import regular expression operations, so my code will incorporate this
+# HW hint said to import regular expression operations, so my code will incorporate this
 import os
 import re
 
@@ -8,7 +8,7 @@ import re
 # I have an issue with setting the csv path. Basically, on my end, I have to write out the full path or the code does not run. 
 # My instructor and TA have been helping me but we have not resolved this.
 # For your grading, I am assuming the typical shorthand path should work:
-# csvpath = os.path.join ('..', 'raw_data', 'pararaph_1.txt')
+# file = ('..', 'raw_data', 'pararaph_1.txt')
 # ****************************************************************************************************************************
 
 # FIRST ANALYSIS - USING TEXT PROVIDED
@@ -50,7 +50,7 @@ print("-----------------------------")
 file = '/Users/nicolemuscanell/UCF-03-PYTHON-CHALLENGES/PyParagraph/raw_data/paragraph_2.txt'
 
 # ************************** FOR GRADER **************************************************************************************
-# file = '..', 'raw_data', 'paragraph_2.txt')
+# file = ('..', 'raw_data', 'paragraph_2.txt')
 # ****************************************************************************************************************************
 
 with open(file, 'r') as file:
