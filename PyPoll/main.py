@@ -58,7 +58,8 @@ with open(csvpath, 'r') as csv_file:
     vote_percentages = [Khan_percent, Correy_percent, Li_percent, OTooley_percent]
 
   # The winner of the election based on popular vote 
-  # Created a variable that uses the index function and identifies the candidate with the max votes
+  # Created a variable that uses the index function and max function
+  # Then created a second variable dentifying the candidate name with the max votes
     winner_index = vote_percentages.index(max(vote_percentages))
     winner = candidates[winner_index]
 
